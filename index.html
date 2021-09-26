@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="resources/images/favicon.png"
+      type="images/png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Rohail Taha</title>
+  </head>
+  <body>
+    <header class="header header_main-page">
+      <div class="wrapper">
+        <div class="header__splitter">
+          <a href="#home" class="header__logo" id="header__logo">
+            <img src="resources/images/logo.svg" alt="logo" />
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a href="#work" class="nav__work-link">Work</a></li>
+              <li><a href="#about" class="nav__about-link">About</a></li>
+              <li><a href="#contact" class="nav__contact-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <nav class="bottom-nav">
+      <ul>
+        <li><a href="#work" class="nav__work-link">Work</a></li>
+        <li><a href="#about" class="nav__about-link">About</a></li>
+        <li><a href="#contact" class="nav__contact-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="wrapper">
+        <div class="flex">
+          <section class="home__content">
+            <h1 class="home__content__name">Rohail Taha</h1>
+            <h2 class="home__content__skill">
+              Building Quality Web Experiences
+            </h2>
+            <h2 class="home__content__title">Frontend Developer</h2>
+            <a
+              href="#work"
+              class="home__content__work-link"
+              id="home__content__work-link"
+            >
+              <img
+                src="resources/images/down arrow.svg"
+                alt="down arrow"
+                id="work-link__img"
+              />
+              <span>See my work</span>
+            </a>
+          </section>
+          <!-- <div class="cube">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="wrapper">
+        <h1 class="work__h">My Projects</h1>
+        <p class="work__click-text">Click to view details</p>
+        <ul class="projects-list">
+          <li class="project">
+            <a href="projects/softwares rating app.html" class="project__link">
+              <div class="project__link__content">
+                <span class="project__title">Softwares Rating App</span>
+                <div class="project__skills">
+                  <span>React</span><span> | </span><span>Firebase</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a href="projects/ip address tracker.html" class="project__link">
+              <div class="project__link__content">
+                <span class="project__title">IP Address Tracker</span>
+                <div class="project__skills">
+                  <span>HTML</span><span> | </span><span>CSS</span>
+                  <span> | </span><span>JS</span><span> | </span>
+                  <span>API</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a href="projects/rest countries api.html" class="project__link">
+              <div class="project__link__content">
+                <span class="project__title">Rest Countries API</span>
+                <div class="project__skills">
+                  <span>React</span>
+                  <span> | </span><span>API</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a
+              href="projects/social media dashboard.html"
+              class="project__link"
+            >
+              <div class="project__link__content">
+                <span class="project__title">Social Media Dashboard</span>
+                <div class="project__skills">
+                  <span>HTML</span><span> | </span><span>CSS</span>
+                  <span> | </span><span>JS</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrapper">
+        <h1 class="about__h">About Me</h1>
+        <section class="about__splitter">
+          <div class="personal-details">
+            <p>
+              Great at converting UI designs to code and making them look pixel
+              perfect and fully responsive. I have a sound designer's eye to
+              discover and fix issues in the UI's of existing layouts.
+              Experienced Web Developer with expertise in HTML, CSS, SCSS,
+              Javascript, Bootstrap, React, Node& Express and MySql.
+              A self motivated individual having more than two years
+              of experience using these technologies.
+            </p>
+            <p>
+              A good programming background as I am pursuing a bachelor's degree
+              in Computer Science from National University of Scienes and
+              Technology (NUST).
+            </p>
+            <a
+              href="resources/documents/Resume.pdf"
+              class="resume-link"
+              id="resume-link"
+              >Download Resume</a
+            >
+          </div>
+          <div class="my-img">
+            <img src="resources/images/me.png" alt="my image" />
+          </div>
+        </section>
+        <div class="skills">
+          <h1 class="skills__h">Skills</h1>
+          <ul class="skills-list">
+            <li class="skill">HTML</li>
+            <li class="skill">CSS | SCSS</li>
+            <li class="skill">Bootstrap</li>
+            <li class="skill">Responsive Design</li>
+            <li class="skill">Javascript</li>
+            <li class="skill">React | Redux</li>
+            <li class="skill">Github</li>
+            <li class="skill">Node | Express</li>
+            <li class="skill">PHP | Laravel</li>
+            <li class="skill">MySql</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="contact" id="contact">
+      <div class="wrapper">
+        <h1 class="contact__h">Contact</h1>
+        <section class="contact__info">
+          <div class="contact__info__email">
+            <h2>Email</h2>
+            <span>taharohail77@gmail.com</span>
+          </div>
+          <div class="contact__info__phone">
+            <h2>Mobile</h2>
+            <span>0309 0100461</span>
+          </div>
+          <div class="contact__info__address contact__info__address--temporary">
+            <h2>Temporary Address</h2>
+            <p>Hostels at NUST University, Islamabad, Pakistan</p>
+          </div>
+          <div class="contact__info__address contact__info__address--permanent">
+            <h2>Permanent Address</h2>
+            <p>Samundri, Faisalabad, Pakistan</p>
+          </div>
+          <ul class="contact__info__social-list">
+            <li>
+              <a href="https://github.com/Rohail77"
+                ><img src="resources/images/github.svg" alt="github logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rohail-taha/"
+                ><img src="resources/images/linkedin.svg" alt="linkedin logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/rohail_taha"
+                ><img src="resources/images/twitter.svg" alt="twitter logo"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="js/main page/animations/resume link animation.js"
+    ></script>
+    <script src="js/main page/animations/scroll animations.js"></script>
+  </body>
+</html>
