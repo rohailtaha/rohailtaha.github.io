@@ -1,7 +1,7 @@
 # My Portfolio Website
 
 ## About
-This is the repository for my web developer portfolio site. The website can be previewed on [this link](https://taha-rohail.vercel.app/)
+This is the repository for my web developer portfolio site. The website can be previewed on [this link](https://rohailtaha.github.io/)
 
 ## Tools Used
 - **Visual Studio Code** as text editor.
@@ -15,6 +15,4 @@ Following resources were helpful in completing this project:
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [Gary Simon's Youtube Channel](https://www.youtube.com/user/DesignCourse) to learn about web design.
 
-## Hosting
-The website is hosted on **Vercel** and can be previewed on [this link](https://taha-rohail.vercel.app/)
 
