@@ -1,4 +1,3 @@
-
 const makeNavigationScrollTrigger = (
   target,
   trigger,
@@ -29,7 +28,11 @@ const navigationScrollTriggerElements = [
     target: '.nav__about-link',
     trigger: '#about',
   },
-  { target: '.nav__contact-link', trigger: '#contact', scrollTriggerOptions: {start: '80% bottom'} },
+  {
+    target: '.nav__contact-link',
+    trigger: '#contact',
+    scrollTriggerOptions: { start: '80% bottom' },
+  },
 ];
 
 navigationScrollTriggerElements.forEach(element => {
@@ -45,47 +48,20 @@ const makeHomeSectionScrollTrigger = () => {
     },
   });
 
-  tl.from(
-    '.home__content__name',
+  tl.fromTo(
+    '#work-link__img',
     {
-      x: -25,
-      opacity: 0,
-      duration: 0.8,
+      y: 1.5,
+    },
+    {
+      y: -1.5,
+      duration: 0.6,
+      repeat: -1,
+      yoyo: true,
+      ease: 'power1.out',
     },
     '+=0.5'
-  )
-    .from(
-      '.home__content__title',
-      {
-        x: -25,
-        opacity: 0,
-        duration: 0.8,
-      },
-      '-=0.2'
-    )
-    .from(
-      '.home__content__work-link',
-      {
-        x: -25,
-        opacity: 0,
-        duration: 0.8,
-      },
-      '-=0.2'
-    )
-    .fromTo(
-      '#work-link__img',
-      {
-        y: 1.5,
-      },
-      {
-        y: -1.5,
-        duration: 0.6,
-        repeat: -1,
-        yoyo: true,
-        ease: 'power1.out',
-      },
-      '+=0.5'
-    );
+  );
 };
 
 makeHomeSectionScrollTrigger();
