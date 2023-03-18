@@ -6,7 +6,6 @@ This is the repository for my web developer portfolio site. The website can be p
 ## Tools Used
 - **Visual Studio Code** as text editor.
 - **Figma** for designing and prototyping the website.
-- **GSAP** library for animations.
 
 ## Useful Resources
 Following resources were helpful in completing this project:
