@@ -36,13 +36,13 @@ p {
 }
 
 button,
-input[type=submit] {
+input[type='submit'] {
   cursor: pointer;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   min-height: 100vh;
   padding: 0.05px 0;
 }
@@ -71,7 +71,7 @@ body {
 .contact__h {
   font-size: clamp(2.9rem, 5vw, 4.5rem);
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .work__h,
@@ -83,7 +83,7 @@ body {
 .work__h,
 .about__h,
 .about .skills__h {
-  color: #00171F;
+  color: #00171f;
 }
 
 .resume-link,
@@ -91,7 +91,7 @@ body {
 .project-page .project-details .view-code-btn {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #003052;
   border-radius: 4px;
   color: white;
@@ -163,7 +163,7 @@ body {
 .home {
   padding-top: 56px;
   min-height: 100vh;
-  background: #00171F;
+  background: #00171f;
   display: flex;
   align-items: center;
 }
@@ -177,9 +177,10 @@ body {
   color: white;
   max-width: 520px;
 }
-.home__content__name, .home__content__title {
+.home__content__name,
+.home__content__title {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.3px;
 }
 .home__content__name {
@@ -188,7 +189,7 @@ body {
   margin-bottom: 1.5em;
 }
 .home__content__skill {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(3.6rem, 6.1vw, 5.6rem);
   font-weight: 800;
   margin-bottom: 0.35em;
@@ -231,7 +232,7 @@ body {
 .work__click-text {
   font-size: 1.4rem;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 1em;
   display: none;
 }
@@ -311,7 +312,7 @@ body {
 .about .skills__h {
   font-size: clamp(2.2rem, 4vw, 2.8rem);
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 1.5em;
   text-align: center;
   text-transform: uppercase;
@@ -340,7 +341,7 @@ body {
       Contact Section Styles
 ********************************/
 .contact {
-  background: #00171F;
+  background: #00171f;
   color: white;
   padding: clamp(3em, 4.8vw, 6em) 0;
 }
@@ -354,13 +355,16 @@ body {
   grid-gap: 2em 2.5em;
   font-size: 1.6rem;
 }
-.contact__info__address h2, .contact__info__phone h2, .contact__info__email h2 {
+.contact__info__address h2,
+.contact__info__phone h2,
+.contact__info__email h2 {
   font-size: 1.4rem;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 0.6em;
 }
-.contact__info__email span, .contact__info__phone span {
+.contact__info__email span,
+.contact__info__phone span {
   display: block;
 }
 .contact__info__address--temporary {
@@ -397,8 +401,8 @@ body {
 }
 .project-page .project-details__title,
 .project-page .gallery__h {
-  font-family: "Montserrat", sans-serif;
-  color: #00171F;
+  font-family: 'Montserrat', sans-serif;
+  color: #00171f;
 }
 .project-page .project-details {
   padding-top: 56px;
@@ -450,7 +454,7 @@ body {
 .project-page .gallery__screen-toggle-btn {
   font-size: 1.4rem;
   font-weight: 800;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 1em 1em 0.5em 1em;
   color: #5f5f5f;
 }
@@ -616,8 +620,8 @@ body {
   }
 
   .resume-link,
-.project-page .project-details .preview-site-btn,
-.project-page .project-details .view-code-btn {
+  .project-page .project-details .preview-site-btn,
+  .project-page .project-details .view-code-btn {
     font-size: 1.25rem;
   }
 
