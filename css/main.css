@@ -301,7 +301,7 @@ body {
   max-width: 550px;
 }
 .about .personal-details p {
-  line-height: 2;
+  line-height: 1.7;
 }
 .about .personal-details p + p {
   margin-top: 1.3em;
