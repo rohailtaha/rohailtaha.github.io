@@ -363,9 +363,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0.6em;
 }
+
 .contact__info__email span,
 .contact__info__phone span {
   display: block;
+  font-family: 'Montserrat', sans-serif;
 }
 .contact__info__address--temporary {
   grid-column: 1;
@@ -387,6 +389,7 @@ body {
 }
 .contact__info p {
   line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /******************************
