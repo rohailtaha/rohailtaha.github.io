@@ -476,6 +476,7 @@ body {
 }
 .project-page .gallery #mobile-images .gallery__image img {
   width: 250px;
+  border-radius: 39px;
 }
 .project-page .gallery__image img {
   height: 100%;
