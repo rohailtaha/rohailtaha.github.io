@@ -360,8 +360,10 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0.6em;
 }
-.contact__info__email span, .contact__info__phone span {
-  display: block;
+.contact__info__address h3, .contact__info__phone h3, .contact__info__email h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 .contact__info__social-list {
   display: flex;
